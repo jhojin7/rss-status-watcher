@@ -1,0 +1,44 @@
+feeds:
+  - name: OpenAI
+    url: https://status.openai.com/history.rss
+
+  - name: Anthropic Claude
+    url: https://status.anthropic.com/history.rss
+
+  - name: Slack
+    url: https://status.slack.com/feed/rss
+
+  - name: Discord
+    url: https://status.discord.com/history.rss
+
+  - name: GitHub
+    url: https://www.githubstatus.com/history.rss
+
+  # Additional candidates. Verify before enabling.
+  - name: Google Cloud
+    url: https://status.cloud.google.com/en/feed.atom
+    enabled: false
+
+  - name: AWS
+    url: https://health.aws.amazon.com/rss/all.rss
+    enabled: false
+
+  - name: Cloudflare
+    url: https://www.cloudflarestatus.com/history.atom
+    enabled: false
+
+  - name: Vercel
+    url: https://www.vercel-status.com/history.rss
+    enabled: false
+
+  - name: Supabase
+    url: https://status.supabase.com/history.rss
+    enabled: false
+
+  - name: Notion
+    url: https://status.notion.so/history.rss
+    enabled: false
+
+  - name: Linear
+    url: https://linearstatus.com/history.rss
+    enabled: false
